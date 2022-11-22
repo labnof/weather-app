@@ -1,6 +1,24 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple Weather app.
+
+Use npm install to install all required packages.
+
+## Import files and directories
+
+src
+    -components
+        -result_card.js
+        -search_tool.js
+    -services
+        -helper_func.js
+        -services.js
+    -App.js
+.env
+*components: contains the application components.
+*services: contains function to call API and a helper function.
+*App.js contains the main part of the application.
+*.env contains the environment variables.
 
 ## Available Scripts
 
